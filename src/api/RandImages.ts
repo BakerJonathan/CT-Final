@@ -10,7 +10,7 @@ export async function RandImages(site:string, itterations:number,urlInData:boole
                     site)
 
                 if (urlInData==true){
-                    while (result.data.url.includes(".mp4")){
+                    while (result.data.url.includes(".mp4")||result.data.url.includes(".webm")){
                     //Rerolls mp4, as it doesn't work with img type
                     result = await axios.get(
                         site)

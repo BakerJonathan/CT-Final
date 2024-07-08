@@ -3,7 +3,7 @@ function About() {
     <div className="bg-green-700 h-screen flex justify-center">
       <div className="w-10/12 h-5/6 bg-green-500 self-center border-green-300 border-2 rounded-2xl p-10 overflow-y-auto ">
        <h1 className="text-center text-white text-3xl">This app works using a secondary server for backend. This server can take 20-30 seconds to wake up. Sitting in dashboard or My Images should wake it up (only needs to be done on initializing)<br />
-       <br />Each user gets their own 'My Images' page, so be sure to login unless you want to contributed to the public page <br /> <br />
+       <br />Each user gets their own 'My Images' page, so be sure to login unless you want to contribute to the public page <br /> <br />
        There are the Major elements in this: <br /> <br />
        1: Dog/Cat/Bird <br />
        These pages will on 'Add Url' put an image into your dash and images pages, with priority 100. <br />
