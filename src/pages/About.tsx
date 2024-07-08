@@ -5,9 +5,9 @@ function About() {
        <h1 className="text-center text-white text-3xl">This app works using a secondary server for backend. This server can take 20-30 seconds to wake up. Sitting in dashboard or My Images should wake it up (only needs to be done on initializing)<br />
        <br />Each user gets their own 'My Images' page, so be sure to login unless you want to contribute to the public page <br /> <br />
        There are the Major elements in this: <br /> <br />
-       1: Dog/Cat/Bird <br />
+       1: Dog/Cat/Fox <br />
        These pages will on 'Add Url' put an image into your dash and images pages, with priority 100. <br />
-       These utilize https://shibe.online/ (for cat and bird) and random.dog for the random images. <br /> <br />
+       These utilize thecatapi.com, randomfox.ca and random.dog for the random images. <br /> <br />
        2: Dashboard <br />
        This page allows you to add, change, and delete images via url and a numeric prio (no decimals).
        <br /> It's worth noting that anything compatable with the 'img' type of html will work in this (as long as it's just that element), thus many things can get crammed into your 'My Images' page. 

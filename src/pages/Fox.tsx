@@ -3,11 +3,11 @@ import {RandImages} from '../api/RandImages'
 import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 
-function Bird() {
+function Fox() {
   const [portalAid,setPortalAid]=useState<string[]>([]);
 
 useEffect(()=>{
-  {RandImages('https://shibe.online/api/birds?count=15&urls=true&httpsUrls=true',1,false).then((value) => {
+  {RandImages('https://randomfox.ca/floof/',15,4).then((value) => {
     if (value!=undefined)
         setPortalAid(value)
     })}
@@ -20,4 +20,4 @@ useEffect(()=>{
   )
 }
 
-export default Bird
+export default Fox

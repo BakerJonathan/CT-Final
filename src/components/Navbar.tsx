@@ -44,7 +44,7 @@ function Navbar() {
                     </button>
 
                     <button className='p-3 m-5 bg-green-400 hover:bg-green-500 justify-center rounded-2xl border-black border ring-2 ring-yellow-950'>
-                            <Link to='/bird' className='flex self-center  text-yellow-100 ml-2 mr-2 '>Bird</Link>
+                            <Link to='/fox' className='flex self-center  text-yellow-100 ml-2 mr-2 '>Fox</Link>
                     </button>
                     <button className='p-3 m-5 bg-green-400 hover:bg-green-500 justify-center rounded-2xl border-black border ring-2 ring-yellow-950'>
                             <Link to='/dashboard' className='flex self-center  text-yellow-100 ml-2 mr-2 '>Dashboard</Link>

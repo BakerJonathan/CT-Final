@@ -2,7 +2,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Dog from "../pages/Dog";
 import Cat from "../pages/Cat";
-import Bird from "../pages/Bird";
+import Fox from "../pages/Fox";
 import Dashboard from "../pages/Dashboard";
 import myImg from "../pages/MyImg"
 
@@ -36,9 +36,9 @@ const routes: RouteType[]=[
         name:"Cat"
     },
     {
-        path:"/bird",
-        component:Bird,
-        name:"Bird"
+        path:"/fox",
+        component:Fox,
+        name:"Fox"
     },
     {
         path:"/dashboard",

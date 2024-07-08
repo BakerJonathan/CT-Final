@@ -7,7 +7,7 @@ function Dog() {
   const [portalAid,setPortalAid]=useState<string[]>([]);
 
 useEffect(()=>{
-  {RandImages('https://random.dog/woof.json',15,true).then((value) => {
+  {RandImages('https://random.dog/woof.json',15,1).then((value) => {
     if (value!=undefined)
         setPortalAid(value)
     })}
